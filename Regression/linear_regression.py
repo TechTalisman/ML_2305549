@@ -9,7 +9,6 @@ def train_linear_regression(x, y):
 
     return b0, b1
 
-
 if __name__ == "__main__":
     x = list(map(float, input("Enter X values (space separated): ").split()))
     y = list(map(float, input("Enter Y values (space separated): ").split()))
